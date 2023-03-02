@@ -1,0 +1,56 @@
+.shopTitle {
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 2.8rem;
+    border-bottom: 2px solid grey;
+    background-image: url("https://t3.ftcdn.net/jpg/04/33/29/14/360_F_433291406_R0MWhH3hJgJeOqVGLItvSsjrGkl5myX4.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+}
+
+.product {
+    border-radius: 15px;
+    width: 19rem;
+    height: 22rem;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product img {
+    width: 22rem;
+}
+
+.product .description {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.addBtn {
+    font-size: inherit;
+    font-family: sans-serif;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.addBtn:hover {
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
