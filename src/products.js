@@ -13,7 +13,7 @@ export const PRODUCTS = [
     },
     {
         id: 3,
-        title: "Ipad 2020",
+        title: "Ipad 2021",
         price: 799.0,
         img: "https://1pad.ru/image/cache/catalog/2020ipad/ipad2020/f3e83b9f16f8c3576206eed012629487-1000x1000.jpg",
     },
