@@ -31,7 +31,7 @@ export const Cart = () => {
                     <button onClick={() => navigate("/")}>Shopping More</button>
                     <button>Checkout</button>
                 </div>
-                : <h1>Your Cart list is Empty</h1>
+                : <h1>Your Cart list is Empty </h1>
             }
             </div>
         </div>

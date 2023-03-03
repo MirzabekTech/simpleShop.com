@@ -2,7 +2,7 @@ export const PRODUCTS = [
     {
         id: 1,
         title: "Iphone",
-        price: 999.0,
+        price: 998.0,
         img: "https://hi-stores.ru/upload/iblock/e8b/e8b1180e69d72b6216c21e4b494e1383.jpg",
     },
     {
